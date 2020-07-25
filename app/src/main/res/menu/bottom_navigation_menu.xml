@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_holiday"
+        android:icon="@drawable/ic_holiday_black_24dp"
+        android:title="Holiday" />
+    <item
+        android:id="@+id/nav_employee"
+        android:icon="@drawable/ic_employee_24dp"
+        android:title="Employee" />
+    <item
+        android:id="@+id/nav_workoff"
+        android:icon="@drawable/ic_workoff_black_24dp"
+        android:title="Workoff" />
+    <item
+        android:id="@+id/nav_salary"
+        android:icon="@drawable/ic_salary_black_24dp"
+        android:title="Salary" />
+</menu>

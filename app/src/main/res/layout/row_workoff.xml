@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:layout_margin="2dp">
+
+    <TextView
+        android:background="@color/light_gray"
+        android:id="@+id/txtwEId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="80"
+        android:gravity="center"
+        android:text="EID"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDayoff"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="Dayoff"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtTimeoff"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="Timeoff"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtReason"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Reason"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
